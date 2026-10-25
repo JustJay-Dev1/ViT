@@ -1,0 +1,7 @@
+# Install PyTorch separately FIRST with CUDA support (see README step 2), then:
+torchvision
+scikit-learn
+numpy
+tqdm
+pillow
+matplotlib

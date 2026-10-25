@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+checkpoints/
+results/
+splits/*.json
+hf_cache/

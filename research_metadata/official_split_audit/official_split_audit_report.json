@@ -1,0 +1,234 @@
+{
+  "dataset_dir": "D:\\Applications\\Codes\\plant_disease_vit\\datasets\\plantvillage dataset\\color",
+  "train_manifest": "D:\\Applications\\Codes\\plant_disease_vit\\research_metadata\\color_train.txt",
+  "test_manifest": "D:\\Applications\\Codes\\plant_disease_vit\\research_metadata\\color_test.txt",
+  "leaf_map": "D:\\Applications\\Codes\\plant_disease_vit\\research_metadata\\leaf-map.json",
+  "leaf_map_keys": 40328,
+  "local_image_count": 54305,
+  "train_manifest_line_count": 43596,
+  "train_manifest_unique_paths": 43596,
+  "test_manifest_line_count": 10709,
+  "test_manifest_unique_paths": 10709,
+  "exact_path_overlap_between_train_and_test": 0,
+  "unique_manifest_paths_union": 54305,
+  "local_images_missing_from_both_manifests": 0,
+  "train_manifest_paths_missing_locally": 0,
+  "test_manifest_paths_missing_locally": 0,
+  "train_classes": 38,
+  "test_classes": 38,
+  "class_counts": {
+    "Apple___Apple_scab": {
+      "train": 503,
+      "test": 127,
+      "total": 630
+    },
+    "Apple___Black_rot": {
+      "train": 475,
+      "test": 146,
+      "total": 621
+    },
+    "Apple___Cedar_apple_rust": {
+      "train": 223,
+      "test": 52,
+      "total": 275
+    },
+    "Apple___healthy": {
+      "train": 1359,
+      "test": 286,
+      "total": 1645
+    },
+    "Blueberry___healthy": {
+      "train": 1178,
+      "test": 324,
+      "total": 1502
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "train": 833,
+      "test": 219,
+      "total": 1052
+    },
+    "Cherry_(including_sour)___healthy": {
+      "train": 731,
+      "test": 123,
+      "total": 854
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "train": 406,
+      "test": 107,
+      "total": 513
+    },
+    "Corn_(maize)___Common_rust_": {
+      "train": 975,
+      "test": 217,
+      "total": 1192
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "train": 765,
+      "test": 220,
+      "total": 985
+    },
+    "Corn_(maize)___healthy": {
+      "train": 912,
+      "test": 250,
+      "total": 1162
+    },
+    "Grape___Black_rot": {
+      "train": 1012,
+      "test": 168,
+      "total": 1180
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "train": 1099,
+      "test": 284,
+      "total": 1383
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "train": 872,
+      "test": 204,
+      "total": 1076
+    },
+    "Grape___healthy": {
+      "train": 323,
+      "test": 100,
+      "total": 423
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "train": 4527,
+      "test": 980,
+      "total": 5507
+    },
+    "Peach___Bacterial_spot": {
+      "train": 1755,
+      "test": 542,
+      "total": 2297
+    },
+    "Peach___healthy": {
+      "train": 289,
+      "test": 71,
+      "total": 360
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "train": 831,
+      "test": 166,
+      "total": 997
+    },
+    "Pepper,_bell___healthy": {
+      "train": 1195,
+      "test": 283,
+      "total": 1478
+    },
+    "Potato___Early_blight": {
+      "train": 836,
+      "test": 164,
+      "total": 1000
+    },
+    "Potato___Late_blight": {
+      "train": 788,
+      "test": 212,
+      "total": 1000
+    },
+    "Potato___healthy": {
+      "train": 120,
+      "test": 32,
+      "total": 152
+    },
+    "Raspberry___healthy": {
+      "train": 209,
+      "test": 162,
+      "total": 371
+    },
+    "Soybean___healthy": {
+      "train": 4117,
+      "test": 973,
+      "total": 5090
+    },
+    "Squash___Powdery_mildew": {
+      "train": 1457,
+      "test": 378,
+      "total": 1835
+    },
+    "Strawberry___Leaf_scorch": {
+      "train": 909,
+      "test": 200,
+      "total": 1109
+    },
+    "Strawberry___healthy": {
+      "train": 376,
+      "test": 80,
+      "total": 456
+    },
+    "Tomato___Bacterial_spot": {
+      "train": 1691,
+      "test": 436,
+      "total": 2127
+    },
+    "Tomato___Early_blight": {
+      "train": 785,
+      "test": 215,
+      "total": 1000
+    },
+    "Tomato___Late_blight": {
+      "train": 1534,
+      "test": 375,
+      "total": 1909
+    },
+    "Tomato___Leaf_Mold": {
+      "train": 780,
+      "test": 172,
+      "total": 952
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "train": 1434,
+      "test": 337,
+      "total": 1771
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "train": 1356,
+      "test": 320,
+      "total": 1676
+    },
+    "Tomato___Target_Spot": {
+      "train": 1116,
+      "test": 288,
+      "total": 1404
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "train": 4257,
+      "test": 1100,
+      "total": 5357
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "train": 307,
+      "test": 66,
+      "total": 373
+    },
+    "Tomato___healthy": {
+      "train": 1261,
+      "test": 330,
+      "total": 1591
+    }
+  },
+  "possible_cross_split_leaf_id_collisions": 227,
+  "train_images_in_colliding_leaf_ids": 290,
+  "test_images_in_colliding_leaf_ids": 243,
+  "overlap_group_assignment_types": {
+    "fallback_map_key_missing": 227
+  },
+  "test_images_in_colliding_groups_by_class": {
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 19,
+    "Corn_(maize)___Northern_Leaf_Blight": 26,
+    "Corn_(maize)___healthy": 187,
+    "Tomato___healthy": 2,
+    "Squash___Powdery_mildew": 6,
+    "Tomato___Late_blight": 3
+  },
+  "train_images_in_colliding_groups_by_class": {
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 22,
+    "Corn_(maize)___Northern_Leaf_Blight": 37,
+    "Corn_(maize)___healthy": 220,
+    "Tomato___healthy": 2,
+    "Squash___Powdery_mildew": 6,
+    "Tomato___Late_blight": 3
+  },
+  "interpretation": "Official documentation describes the provided split as leaf-group-aware, but this script independently checks the current loader's leaf_id assignment logic. Any cross-split leaf-ID collision\u2014especially fallback IDs\u2014must be inspected before claiming a fully group-disjoint evaluation. A collision is a potential overlap, not by itself proof of performance leakage."
+}

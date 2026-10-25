@@ -1,0 +1,359 @@
+{
+  "data_dir": "D:\\Applications\\Codes\\plant_disease_vit\\datasets\\plantvillage dataset\\color",
+  "leaf_map": "D:\\Applications\\Codes\\plant_disease_vit\\leaf-map.json",
+  "leaf_map_keys": 40328,
+  "images_scanned": 54305,
+  "mapped_class_match": 40490,
+  "mapping_coverage_percent": 74.56,
+  "no_map_key": 13194,
+  "key_found_no_class_match": 621,
+  "multiple_matching_groups": 0,
+  "unique_matched_group_ids": 7522,
+  "matched_groups_containing_multiple_images": 7510,
+  "max_images_in_one_matched_group": 33,
+  "class_report": [
+    {
+      "class_name": "Apple___Apple_scab",
+      "images": 630,
+      "mapped_class_match": 630,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Apple___Black_rot",
+      "images": 621,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 621,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Apple___Cedar_apple_rust",
+      "images": 275,
+      "mapped_class_match": 275,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Apple___healthy",
+      "images": 1645,
+      "mapped_class_match": 1645,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Blueberry___healthy",
+      "images": 1502,
+      "mapped_class_match": 1502,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Cherry_(including_sour)___Powdery_mildew",
+      "images": 1052,
+      "mapped_class_match": 1052,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Cherry_(including_sour)___healthy",
+      "images": 854,
+      "mapped_class_match": 854,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "images": 513,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 513,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Corn_(maize)___Common_rust_",
+      "images": 1192,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 1192,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+      "images": 985,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 985,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Corn_(maize)___healthy",
+      "images": 1162,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 1162,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Grape___Black_rot",
+      "images": 1180,
+      "mapped_class_match": 1180,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "images": 1383,
+      "mapped_class_match": 1383,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "images": 1076,
+      "mapped_class_match": 1076,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Grape___healthy",
+      "images": 423,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 423,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+      "images": 5507,
+      "mapped_class_match": 5507,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Peach___Bacterial_spot",
+      "images": 2297,
+      "mapped_class_match": 2297,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Peach___healthy",
+      "images": 360,
+      "mapped_class_match": 360,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "images": 997,
+      "mapped_class_match": 997,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Pepper,_bell___healthy",
+      "images": 1478,
+      "mapped_class_match": 1476,
+      "mapping_coverage_percent": 99.86,
+      "no_map_key": 2,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Potato___Early_blight",
+      "images": 1000,
+      "mapped_class_match": 1000,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Potato___Late_blight",
+      "images": 1000,
+      "mapped_class_match": 1000,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Potato___healthy",
+      "images": 152,
+      "mapped_class_match": 152,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Raspberry___healthy",
+      "images": 371,
+      "mapped_class_match": 371,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Soybean___healthy",
+      "images": 5090,
+      "mapped_class_match": 5090,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Squash___Powdery_mildew",
+      "images": 1835,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 1835,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Strawberry___Leaf_scorch",
+      "images": 1109,
+      "mapped_class_match": 776,
+      "mapping_coverage_percent": 69.97,
+      "no_map_key": 333,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Strawberry___healthy",
+      "images": 456,
+      "mapped_class_match": 456,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Bacterial_spot",
+      "images": 2127,
+      "mapped_class_match": 2127,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Early_blight",
+      "images": 1000,
+      "mapped_class_match": 999,
+      "mapping_coverage_percent": 99.9,
+      "no_map_key": 1,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Late_blight",
+      "images": 1909,
+      "mapped_class_match": 920,
+      "mapping_coverage_percent": 48.19,
+      "no_map_key": 989,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Leaf_Mold",
+      "images": 952,
+      "mapped_class_match": 952,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Septoria_leaf_spot",
+      "images": 1771,
+      "mapped_class_match": 1000,
+      "mapping_coverage_percent": 56.47,
+      "no_map_key": 771,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "images": 1676,
+      "mapped_class_match": 1676,
+      "mapping_coverage_percent": 100.0,
+      "no_map_key": 0,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Target_Spot",
+      "images": 1404,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 1404,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "images": 5357,
+      "mapped_class_match": 2738,
+      "mapping_coverage_percent": 51.11,
+      "no_map_key": 2619,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "images": 373,
+      "mapped_class_match": 0,
+      "mapping_coverage_percent": 0.0,
+      "no_map_key": 373,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    },
+    {
+      "class_name": "Tomato___healthy",
+      "images": 1591,
+      "mapped_class_match": 999,
+      "mapping_coverage_percent": 62.79,
+      "no_map_key": 592,
+      "key_found_no_class_match": 0,
+      "multiple_matching_groups": 0
+    }
+  ],
+  "interpretation": "This is a coverage audit, not proof of leakage or proof of a leak-free split. Only images with an exact class-matched leaf-map entry count as group-mapped. If coverage is incomplete or any class has low coverage, do not treat unmapped images as safely independent leaves; use the official predefined split or obtain matching metadata."
+}

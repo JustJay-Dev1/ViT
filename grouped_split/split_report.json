@@ -1,0 +1,273 @@
+{
+  "source_train_manifest_images": 43596,
+  "source_test_manifest_images": 10709,
+  "total_images": 54305,
+  "source_path_overlap": 0,
+  "classes": 38,
+  "leaf_map_keys": 40328,
+  "unique_leaf_group_ids": 20015,
+  "group_assignment_methods": {
+    "mapped_single_suggestion": 36741,
+    "fallback_map_key_missing": 13194,
+    "mapped_class_match": 4370
+  },
+  "split_sizes": {
+    "train": 38013,
+    "val": 8144,
+    "test": 8148
+  },
+  "split_percentages": {
+    "train": 69.9991,
+    "val": 14.9968,
+    "test": 15.0041
+  },
+  "unique_groups_per_split": {
+    "train": 14015,
+    "val": 3000,
+    "test": 3000
+  },
+  "cross_split_group_overlaps": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "all_38_classes_present_in_each_split": {
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "class_counts": {
+    "Apple___Apple_scab": {
+      "train": 445,
+      "val": 95,
+      "test": 90,
+      "total": 630
+    },
+    "Apple___Black_rot": {
+      "train": 439,
+      "val": 93,
+      "test": 89,
+      "total": 621
+    },
+    "Apple___Cedar_apple_rust": {
+      "train": 195,
+      "val": 36,
+      "test": 44,
+      "total": 275
+    },
+    "Apple___healthy": {
+      "train": 1149,
+      "val": 247,
+      "test": 249,
+      "total": 1645
+    },
+    "Blueberry___healthy": {
+      "train": 1051,
+      "val": 225,
+      "test": 226,
+      "total": 1502
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "train": 734,
+      "val": 159,
+      "test": 159,
+      "total": 1052
+    },
+    "Cherry_(including_sour)___healthy": {
+      "train": 592,
+      "val": 133,
+      "test": 129,
+      "total": 854
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "train": 359,
+      "val": 78,
+      "test": 76,
+      "total": 513
+    },
+    "Corn_(maize)___Common_rust_": {
+      "train": 834,
+      "val": 179,
+      "test": 179,
+      "total": 1192
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "train": 689,
+      "val": 148,
+      "test": 148,
+      "total": 985
+    },
+    "Corn_(maize)___healthy": {
+      "train": 814,
+      "val": 174,
+      "test": 174,
+      "total": 1162
+    },
+    "Grape___Black_rot": {
+      "train": 824,
+      "val": 176,
+      "test": 180,
+      "total": 1180
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "train": 967,
+      "val": 204,
+      "test": 212,
+      "total": 1383
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "train": 760,
+      "val": 156,
+      "test": 160,
+      "total": 1076
+    },
+    "Grape___healthy": {
+      "train": 297,
+      "val": 63,
+      "test": 63,
+      "total": 423
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "train": 3847,
+      "val": 829,
+      "test": 831,
+      "total": 5507
+    },
+    "Peach___Bacterial_spot": {
+      "train": 1607,
+      "val": 345,
+      "test": 345,
+      "total": 2297
+    },
+    "Peach___healthy": {
+      "train": 251,
+      "val": 58,
+      "test": 51,
+      "total": 360
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "train": 696,
+      "val": 152,
+      "test": 149,
+      "total": 997
+    },
+    "Pepper,_bell___healthy": {
+      "train": 1035,
+      "val": 222,
+      "test": 221,
+      "total": 1478
+    },
+    "Potato___Early_blight": {
+      "train": 708,
+      "val": 148,
+      "test": 144,
+      "total": 1000
+    },
+    "Potato___Late_blight": {
+      "train": 704,
+      "val": 144,
+      "test": 152,
+      "total": 1000
+    },
+    "Potato___healthy": {
+      "train": 104,
+      "val": 24,
+      "test": 24,
+      "total": 152
+    },
+    "Raspberry___healthy": {
+      "train": 260,
+      "val": 55,
+      "test": 56,
+      "total": 371
+    },
+    "Soybean___healthy": {
+      "train": 3559,
+      "val": 769,
+      "test": 762,
+      "total": 5090
+    },
+    "Squash___Powdery_mildew": {
+      "train": 1283,
+      "val": 276,
+      "test": 276,
+      "total": 1835
+    },
+    "Strawberry___Leaf_scorch": {
+      "train": 775,
+      "val": 168,
+      "test": 166,
+      "total": 1109
+    },
+    "Strawberry___healthy": {
+      "train": 324,
+      "val": 64,
+      "test": 68,
+      "total": 456
+    },
+    "Tomato___Bacterial_spot": {
+      "train": 1483,
+      "val": 320,
+      "test": 324,
+      "total": 2127
+    },
+    "Tomato___Early_blight": {
+      "train": 703,
+      "val": 149,
+      "test": 148,
+      "total": 1000
+    },
+    "Tomato___Late_blight": {
+      "train": 1335,
+      "val": 287,
+      "test": 287,
+      "total": 1909
+    },
+    "Tomato___Leaf_Mold": {
+      "train": 668,
+      "val": 144,
+      "test": 140,
+      "total": 952
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "train": 1239,
+      "val": 266,
+      "test": 266,
+      "total": 1771
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "train": 1176,
+      "val": 248,
+      "test": 252,
+      "total": 1676
+    },
+    "Tomato___Target_Spot": {
+      "train": 983,
+      "val": 211,
+      "test": 210,
+      "total": 1404
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "train": 3749,
+      "val": 804,
+      "test": 804,
+      "total": 5357
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "train": 261,
+      "val": 56,
+      "test": 56,
+      "total": 373
+    },
+    "Tomato___healthy": {
+      "train": 1114,
+      "val": 239,
+      "test": 238,
+      "total": 1591
+    }
+  },
+  "method": "StratifiedGroupKFold(n_splits=20, shuffle=True, random_state=seed); folds 0-2 validation, 3-5 test, 6-19 train.",
+  "group_id_method": "Mirrors leaf_id assignment in official PlantVillage Hugging Face loader. Fallback IDs are derived from normalized filename identifiers when the map does not provide a class-matched assignment.",
+  "limitations": "Group disjointness is guaranteed for the derived group IDs, not independently verified biological identity for every image. Treat as metadata-based group-aware partitioning, not field validation.",
+  "seed": 42
+}

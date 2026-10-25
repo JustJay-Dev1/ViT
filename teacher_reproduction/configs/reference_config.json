@@ -1,0 +1,39 @@
+{
+  "reference_paper": "A. Ouamane et al., Optimized Vision Transformers for Superior Plant Disease Detection, IEEE Access, 2025, DOI 10.1109/ACCESS.2025.3547416",
+  "dataset_id": "Project-AgML/plant_village_classification",
+  "expected_dataset_rows_at_package_creation": 55448,
+  "expected_classes": 39,
+  "split": {
+    "train_fraction": 0.8,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.1,
+    "seed": 42,
+    "method": "stratified row-level random split, not leaf-grouped"
+  },
+  "model": {
+    "image_size": 224,
+    "patch_size": 16,
+    "embedding_dim": 512,
+    "depth": 6,
+    "attention_heads": 8,
+    "mlp_dim": 1024,
+    "positional_encoding": "sinusoidal",
+    "activation": "ReLU",
+    "normalization": "post-norm",
+    "dropout": 0.0,
+    "num_classes": 39
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "reported_effective_batch_size": 64,
+    "epochs": 1000,
+    "micro_batch_size": 16,
+    "gradient_accumulation_steps": 4,
+    "mixed_precision": "fp16",
+    "loss": "CrossEntropyLoss",
+    "learning_rate_schedule": "fixed; no schedule reported in paper",
+    "weight_decay": 0.01,
+    "weight_decay_note": "PyTorch AdamW default; paper does not specify weight decay"
+  }
+}

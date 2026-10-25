@@ -1,0 +1,6 @@
+# Colab already supplies a compatible torch/torchvision build. Do not reinstall torch from this file.
+datasets>=3.3.2,<4.0
+scikit-learn>=1.5
+numpy>=1.26
+Pillow>=10.0
+tqdm>=4.66

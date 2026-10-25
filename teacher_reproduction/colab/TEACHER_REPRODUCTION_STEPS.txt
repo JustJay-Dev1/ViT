@@ -1,0 +1,9 @@
+1. Upload/extract teacher_reproduction to Google Drive:
+   MyDrive/plant_disease_vit/teacher_reproduction
+2. Open teacher_reproduction/colab/teacher_reproduction_colab.ipynb in Google Colab.
+3. In Colab select Runtime > Change runtime type > GPU.
+4. Run setup, dependency, and preflight cells. Do not start full training until the printed counts/classes look correct.
+5. The benchmark only uses a dummy forward/backward pass and writes no teacher checkpoint.
+6. To train, run the cell and type TRAIN. It resumes from checkpoints/last.pt automatically.
+7. If a session disconnects: reconnect, mount Drive again, rerun dependencies + preflight cells, then run the training cell again.
+8. When the saved epoch reaches 1000, run the evaluation cell.

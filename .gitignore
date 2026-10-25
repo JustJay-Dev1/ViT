@@ -1,0 +1,17 @@
+# Python Cache
+__pycache__/
+
+# Virtual Environment
+be_venv/
+
+# Datasets
+datasets/
+
+checkpoints/best_model.pt
+
+checkpoints/last.pt
+
+teacher_reproduction_bundle.zip
+
+checkpoints_sanity/
+
